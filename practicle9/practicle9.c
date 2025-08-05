@@ -22,9 +22,7 @@ void main()
        na=sm-sm*0.1;
        printf("\n10%% discount is applied. \nTotal amount to be paid after discount: %f",na);
        printf("\nNo GST applied.");
-
-
-    }
+   }
 
     else if(sm>5000)
     {
@@ -38,10 +36,10 @@ void main()
     else{
     printf("Invalid amount.");
     }
-}    else
+}   
+    else
    {
-
-    if(sm<=1000 && sm>0)
+   if(sm<=1000 && sm>0)
     {
         printf("No discount applied");
         printf("\nAmount to be paid: %f",sm);
@@ -71,6 +69,4 @@ void main()
     printf("Invalid amount.");
     }
    }
-
-
 }
